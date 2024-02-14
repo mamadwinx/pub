@@ -1,0 +1,32 @@
+//+------------------------------------------------------------------+
+//|                Fozzy Daily Indicator                           |
+//|                Programmed by Aidrian O'Connor                  |
+//|                http://www.unitone.org            |
+//+------------------------------------------------------------------+
+#property copyright "Fozzy"
+#property link      "http://"
+
+#property indicator_separate_window
+#property indicator_buffers 5
+#property indicator_color1 Aqua
+#property indicator_color2 Red
+#property indicator_color3 MediumSeaGreen
+#property indicator_color4 MediumSeaGreen
+#property indicator_color5 MediumSeaGreen
+
+//---- indicator parameters
+extern int    RSIPeriod = 9;
+extern int    RSIMAPeriod = 8;
+extern int    BandsPeriod=40;
+extern int    BandsShift=0;
+extern double BandsDeviations=2.0;
+
+//---- buffers
+double RSI[];
+double RSIMA[];
+double BBMid[];
+double BBUp[];
+double BBDn[];
+int i;
+  
+int init()
