@@ -1,0 +1,22 @@
+#property copyright   ""                                                                  // copyright
+#property version     ""                                                                  // Version
+#property description "This Expert Advisor is strength of symbols & trade accordingly"    // Description
+#property strict
+
+//--- input parameters
+extern double xx=0.3;
+extern double aa=0.1;
+
+
+extern double TradingLots=0.01;
+extern int  TakeProfit= 10; //Take Profit (in Pips)
+extern int  StopLoss= 150; //StopLoss (in Pips)
+extern bool UseSLTP = true;
+extern bool TradeOnce=true; // Trade Once (per Day)
+extern string prefix="";
+extern string postfix="";
+ // Difference Between Two Currencies Percentage
+extern int Magic=135999; // Magic Number
+//+------------------------------------------------------------------+
+//|                                                                  |
+//+------------------------------------------------------------------+
