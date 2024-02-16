@@ -1,0 +1,55 @@
+int start()
+{
+RefreshRates();
+/*
+USDCHF, GBPUSD, EURUSD, USDJPY, USDCAD, NZDUSD, AUDUSD, AUDNZD, AUDCAD, AUDCHF, AUDJPY, CHFJPY, EURGBP, EURAUD,
+
+EURCHF, EURJPY, EURNZD, EURCAD, GBPCHF, GBPAUD, GBPCAD, GBPJPY, CADJPY, NZDJPY, GBPNZD, CADCHF
+*/
+
+   double USDJPY = perch(prefix+"USDJPY"+postfix);
+   double USDCAD = perch(prefix+"USDCAD"+postfix);
+   double AUDUSD = perch(prefix+"AUDUSD"+postfix);
+   double USDCHF = perch(prefix+"USDCHF"+postfix);
+   double GBPUSD = perch(prefix+"GBPUSD"+postfix);
+   double EURUSD = perch(prefix+"EURUSD"+postfix);
+   double NZDUSD = perch(prefix+"NZDUSD"+postfix);
+   double EURJPY = perch(prefix+"EURJPY"+postfix);
+   double EURCAD = perch(prefix+"EURCAD"+postfix);
+   double EURGBP = perch(prefix+"EURGBP"+postfix);
+   double EURCHF = perch(prefix+"EURCHF"+postfix);
+   double EURAUD = perch(prefix+"EURAUD"+postfix);
+   double EURNZD = perch(prefix+"EURNZD"+postfix);
+   double AUDNZD = perch(prefix+"AUDNZD"+postfix);
+   double AUDCAD = perch(prefix+"AUDCAD"+postfix);
+   double AUDCHF = perch(prefix+"AUDCHF"+postfix);
+   double AUDJPY = perch(prefix+"AUDJPY"+postfix);
+   double CHFJPY = perch(prefix+"CHFJPY"+postfix);
+   double GBPCHF = perch(prefix+"GBPCHF"+postfix);
+   double GBPAUD = perch(prefix+"GBPAUD"+postfix);
+   double GBPCAD = perch(prefix+"GBPCAD"+postfix);
+   double GBPJPY = perch(prefix+"GBPJPY"+postfix);
+   double CADJPY = perch(prefix+"CADJPY"+postfix);
+   double NZDJPY = perch(prefix+"NZDJPY"+postfix);
+   double GBPNZD = perch(prefix+"GBPNZD"+postfix);
+   double CADCHF = perch(prefix+"CADCHF"+postfix);
+
+double eur = (EURJPY+EURCAD+EURGBP+EURCHF+EURAUD+EURUSD+EURNZD)/7;
+   double usd = (USDJPY+USDCAD-AUDUSD+USDCHF-GBPUSD-EURUSD-NZDUSD)/7;
+   double jpy = (-1*(USDJPY+EURJPY+AUDJPY+CHFJPY+GBPJPY+CADJPY+NZDJPY))/7;
+   double cad = (CADCHF+CADJPY-(GBPCAD+AUDCAD+EURCAD+USDCAD))/6;
+   double aud = (AUDUSD+AUDNZD+AUDCAD+AUDCHF+AUDJPY-(EURAUD+GBPAUD))/7;
+   double nzd = (NZDUSD+NZDJPY-(EURNZD+AUDNZD+GBPNZD))/5;
+   double gbp = (GBPUSD-EURGBP+GBPCHF+GBPAUD+GBPCAD+GBPJPY+GBPNZD)/7;
+   double chf = (CHFJPY-(USDCHF+EURCHF+AUDCHF+GBPCHF+CADCHF))/6;
+   
+  
+
+   eur = NormalizeDouble(eur,2);
+   usd = NormalizeDouble(usd,2);
+   jpy = NormalizeDouble(jpy,2);
+   cad = NormalizeDouble(cad,2);
+   aud = NormalizeDouble(aud,2);
+   nzd = NormalizeDouble(nzd,2);
+   gbp = NormalizeDouble(gbp,2);
+   chf = NormalizeDouble(chf,2);
