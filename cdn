@@ -1,0 +1,39 @@
+<script src="https://cdn-apac.onetrust.com/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" defer data-domain-script="49e8a847-f2c7-4b58-a340-caf0924064fe"></script>
+<script type="text/javascript">
+  const STRICT_COOKIE = "C0001";
+  const PERF_COOKIE = "C0002";
+  const FUNC_COOKIE = "C0003";
+  const TARGET_COOKIE = "C0004";
+
+  const YT_DOMAIN = "www.youtube.com";
+  const TW_DOMAIN = "platform.twitter.com";
+  const TW_CONTAINER = "twitter-tweet";
+
+  const CONTENT_PLACEHOLDER = "content-placeholder";
+
+  // TODO: confirm if i18n needed
+  const contentPlaceholderTemplate = `
+    <div class="tw-p-6 dark:tw-bg-moon-900">
+      <div class="tw-flex tw-flex-col tw-gap-4">
+        <div class="tw-p-6 tw-border-solid tw-border-2 tw-border-gray-200 tw-rounded-lg dark:tw-border-moon-800">
+          <div class="tw-flex">
+            <div class="tw-flex-shrink-0">
+              <i class="tw-text-sm fas fa-exclamation-triangle tw-text-gray-700 dark:tw-text-moon-100"></i>
+            </div>
+            <div class="tw-ml-3">
+              <div class="tw-text-gray-700 dark:tw-text-moon-100 tw-font-semibold tw-text-base tw-leading-6 tw-flex-grow tw-mb-1">
+                Couldn't load content
+              </div>
+              <div class="tw-font-normal tw-text-gray-500 dark:tw-text-moon-200 tw-text-base tw-leading-6 tw-flex-grow">
+                This feature is currently not available because you need to provide consent to functional cookies.
+                Please update your
+                <span class="tw-cursor-pointer tw-font-semibold tw-underline tw-text-gray-700
+                             hover:tw-text-primary-500 hover:tw-underline dark:tw-text-slate-50 dark:hover:tw-text-primary-400"
+                      onclick="javascript:openPrefCenter();">Cookie Preferences</span>.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
