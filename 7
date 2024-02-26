@@ -44,6 +44,15 @@ double eur = (EURJPY+EURCAD+EURGBP+EURCHF+EURAUD+EURUSD+EURNZD)/7;
    double chf = (CHFJPY-(USDCHF+EURCHF+AUDCHF+GBPCHF+CADCHF))/6;
    
   
+   eur = NormalizeDouble(eur,2);
+   usd = NormalizeDouble(usd,2);
+   jpy = NormalizeDouble(jpy,2);
+   cad = NormalizeDouble(cad,2);
+   aud = NormalizeDouble(aud,2);
+   nzd = NormalizeDouble(nzd,2);
+   gbp = NormalizeDouble(gbp,2);
+   chf = NormalizeDouble(chf,2);
+
 
    eur = NormalizeDouble(eur,2);
    usd = NormalizeDouble(usd,2);
