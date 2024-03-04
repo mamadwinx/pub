@@ -29,3 +29,8 @@ double BBDn[];
 int i;
   
 int init()
+extern int    RSIPeriod = 9;
+extern int    RSIMAPeriod = 8;
+extern int    BandsPeriod=40;
+extern int    BandsShift=0;
+extern double BandsDeviations=2.0
