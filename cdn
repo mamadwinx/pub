@@ -13,12 +13,12 @@
 
   // TODO: confirm if i18n needed
   const contentPlaceholderTemplate = `
-    <div class="tw-p-6 dark:tw-bg-moon-900">
+    <div class="tw-p-6 dark:tw-bg-moon-90">
       <div class="tw-flex tw-flex-col tw-gap-4">
-        <div class="tw-p-6 tw-border-solid tw-border-2 tw-border-gray-200 tw-rounded-lg dark:tw-border-moon-800">
+        <div class="tw-p-6 tw-border-solid tw-border-2 tw-border-gray-200 tw-rounded-lg dark:tw-border-moon-80">
           <div class="tw-flex">
             <div class="tw-flex-shrink-0">
-              <i class="tw-text-sm fas fa-exclamation-triangle tw-text-gray-700 dark:tw-text-moon-100"></i>
+              <i class="tw-text-sm fas fa-exclamation-triangle tw-text-gray-700 dark:tw-text-moon-10"></i>
             </div>
             <div class="tw-ml-3">
               <div class="tw-text-gray-700 dark:tw-text-moon-100 tw-font-semibold tw-text-base tw-leading-6 tw-flex-grow tw-mb-1">
