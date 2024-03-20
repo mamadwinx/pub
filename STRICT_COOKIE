@@ -1,7 +1,7 @@
-const STRICT_COOKIE = "C0001";
-  const PERF_COOKIE = "C0002";
-  const FUNC_COOKIE = "C0003";
-  const TARGET_COOKIE = "C0004";
+const STRICT_COOKIE = "C01";
+  const PERF_COOKIE = "C02";
+  const FUNC_COOKIE = "C03";
+  const TARGET_COOKIE = "C04";
 
   const YT_DOMAIN = "www.youtube.com";
   const TW_DOMAIN = "platform.twitter.com";
