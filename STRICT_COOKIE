@@ -1,5 +1,5 @@
-const STRICT_COOKIE = "C01";
-  const PERF_COOKIE = "C02";
+const STRICT_COOKIE = "C021";
+  const PERF_COOKIE = "C202";
   const FUNC_COOKIE = "C03";
   const TARGET_COOKIE = "C04";
 
