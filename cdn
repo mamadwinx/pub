@@ -5,7 +5,7 @@
   const FUNC_COOKIE = "C0003";
   const TARGET_COOKIE = "C0004";
 
-  const YT_DOMAIN = "www.youtube.com";
+
   const TW_DOMAIN = "platform.twitter.com";
   const TW_CONTAINER = "twitter-tweet";
 
