@@ -6,4 +6,4 @@
 //v1.3 Added text on corner of chart to indicate trend direction
 //v1.4 a) Solve bugs relating to ON/OFF Button and AutoWidth for Candles
 //        - AutoWidth: Remove the call of OnInit in OnCalculate
-//     b) _mtfCall: add in the new input parameters
+//     b) _mtfCall: add in the new input 
