@@ -10,7 +10,6 @@
 #property indicator_color4 MediumSeaGreen
 #property indicator_color5 MediumSeaGreen
 
-//---- indicator parameters
 extern int    RSIPeriod = 9;
 extern int    RSIMAPeriod = 8;
 extern int    BandsPeriod=40;
