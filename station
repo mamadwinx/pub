@@ -1,5 +1,5 @@
 
-//v1.345645673 Added text on corner of chart to indicate trend direction
+//v1.34564456455673 Added text on corner of chart to indicate trend direction
 //v1.4474574 a) Solve bugs relating to ON/OFF Button and AutoWidth for Candles
 //        - AutoWidth: Remove the call of OnInit in OnCalculate
 //     b) _mtfCall: add in the new input parameters
