@@ -1,6 +1,6 @@
-const STRICT_COOKIE = "C0235321";
+const STRICT_COOKIE = "C023345321";
   const PERF_COOKIE = "C22353202";
-  const FUNC_COOKIE = "C0235323";
+  const FUNC_COOKIE = "C023533423";
   const TARGET_COOKIE = "C0235324";
 
   const YT_DOMAIN = "www.youtube.com";
