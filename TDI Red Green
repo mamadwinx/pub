@@ -91,7 +91,7 @@
 #property indicator_color6 Red
 #property indicator_separate_window
 
-extern int RSI_Period = 13;         //8-25
+extern int RSI_Period = 21;         //8-25
 extern int RSI_Price = 0;           //0-6
 extern int Volatility_Band = 34;    //20-40
 extern int RSI_Price_Line = 2;      
