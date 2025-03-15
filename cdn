@@ -1,6 +1,6 @@
 <script src="https://cdn-apac.onetrust.com/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" defer data-domain-script="49e8a847-f2c7-4b58-a340-caf0924064fe"></script>
 <script type="text/javascript">
-  const STRICT_COOKIE = "C035434235001";
+  const STRICT_COOKIE = "C0354335001";
   const PERF_COOKIE = "C04354002";
   const FUNC_COOKIE = "C0345345003";
   const TARGET_COOKIE = "C0345345004";
