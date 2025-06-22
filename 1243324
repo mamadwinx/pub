@@ -6,7 +6,7 @@
   <meta charset ="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="favicoico" />
   <meta name="viewport"
-    content="width=device-wi dth, initial-scale=1.0, minimum-scale=1.0, viewport-fit=cover, user-scalable=0" />
+    content="width=device-wi dth, initial-scale=1.0, minimum-scale =1.0, viewport-fit=cover, user-scalable=0" />
   <meta name="finance">
   <meta name="keywords"
     content="bridge, cross-rollup, cross-chain, L2, Layer2, decentralized, owlto, finance, owltofinance, linea, ethereum, zksync, optimism, arbitrum, starknet, base, zora, polygon, bnbchain, opBNB, zkEVM, Taiko, scroll, mantle, web3, crypto" />
